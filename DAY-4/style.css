@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    color: #f1f1f1;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1723556146809-2dcb7c1e0bf1?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 12vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+}
+
+nav h2{
+    font-size: 3vw;
+}
+
+nav h4 i{
+    font-size: 2vw;
+    cursor: pointer;
+}
+
+.slider-con{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background-color: #ffffff7a;
+    right: -45%;
+    top: 0%;
+    backdrop-filter: blur(15px);
+    padding: 2vw 4vw;
+}
+
+.slider-con ul{
+    list-style: none;
+    margin-top: 7vw;
+}
+
+ul li a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 3.2vw;
+    font-weight: 800;
+}
+
+#crossicon{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+#crossicon i{
+    font-size: 1.7vw;
+    color: #221212;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    padding: .5vw;
+}

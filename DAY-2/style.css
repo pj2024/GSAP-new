@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "New Amsterdam", sans-serif;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(90, 0, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 65, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(14, 4, 23);
+}
+
+
+#page3 h1{
+    font-size: 50vw;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    line-height: 1;
+}
+#page4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(188, 146, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    width: 20vw;
+    height: 20vw;
+    background-color: #b91717;
+}
